@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: discovery-server
+  profiles:
+    active:
+      - dev
+server:
+  port: 8761
